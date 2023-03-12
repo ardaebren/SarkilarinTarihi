@@ -1,0 +1,248 @@
+body{
+    background-image: url(images/arkaplan3.jpg);
+    width: 100%;
+    background-size: cover;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.container{
+    background:url(images/arkaplann.PNG);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.container2{
+    background-color: bisque;
+}
+
+.container .navbar{
+    width: 100%;
+    height: 135px;
+    background-color: bisque;
+}
+
+.navbar ul{
+    text-align: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 110px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: saddlebrown;
+}
+.container .center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    user-select: none;
+}
+.center h1{
+    color: brown;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+.center h2{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    margin: 200px 0;
+}
+
+.card{
+    margin-top: -100px;
+    width: 20%;
+    box-shadow: 0 5px 9px 0 black;
+    border-radius: 6px;
+    height: 370px;
+    
+    
+}
+
+.card:hover{
+    opacity: 0.7;
+}
+
+.container3{
+    padding: 5px 20px;
+}
+
+.container3 p{
+    margin: 15px 0;
+}
+
+section .card img{
+    border-radius: 6px 6px 0 0;
+    width: 100%;
+    height: 300px;
+   
+    
+}
+
+p{font-size: 19px;}
+
+.biyo p{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.biyo img{
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 400px;
+    height: 400px;
+}
+
+.biyo h1{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.sarkilar p{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sarkilar h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.btn{
+    text-decoration: none;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-left: 650px;
+    margin-bottom: 15px;
+    display: inline-block;  
+    background-color: saddlebrown;
+    color: white;
+    text-align: center;
+    
+}
+.btn:hover{
+    opacity: 0.7;
+}
+
+.geri .btn{
+    text-decoration: none;
+    display: inline-block;  
+    background-color: saddlebrown;
+    color: white;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 19px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+.sarkilar iframe{
+    margin-left: 480px;
+    margin-top: 30px;
+}
+
+
+
+.bilgi h1{
+    font-size: 19px;
+    color: brown;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 70px;
+    text-align: center;
+}
+.bilgi p{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 40px;
+    text-align: center;
+}
+.bilgi img{
+    height: 150px;
+    width: 150px;
+    padding-top: 70px;
+    padding-left: 690px;
+}
+.bilgi .btn{
+    text-decoration: none;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-left: 650px;
+    margin-bottom: 15px;
+    display: inline-block;  
+    background-color: saddlebrown;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.baslik h1{
+    color: brown;
+    margin-top: 10px;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center; 
+}
+
+.hikayeler h2{
+   
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+hr{
+    width: 750px;
+    margin-top: 10px;
+    margin-left:390px;
+    height: 3px;
+    background-color: white;
+}
+.hikayeler p{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.hikayeler iframe{
+    margin-left: 480px;
+    margin-top: 30px;
+}
